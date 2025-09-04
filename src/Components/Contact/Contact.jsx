@@ -34,7 +34,7 @@ const Contact = () => {
             <input type="text" name='_honey' style={{display:"none"}}/>
 
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name='_next' value="https://edusity-8p99.onrender.com"/>
+            {/* <input type="hidden" name='_next' value="https://edusity-8p99.onrender.com"/> */}
             <input type="hidden" name="_template" value="table" />
 
             <button type='submit' className='btn dark-btn'>Submit now <img src={white_arrow} alt="right arrow" /></button>
